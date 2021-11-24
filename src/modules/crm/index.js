@@ -14,8 +14,8 @@ import TicketSupport from './TicketSupport';
 import {useDispatch, useSelector} from 'react-redux';
 import {onGetCrmData} from '../../../redux/actions';
 import GridContainer from '../../components/GridContainer';
-import InfoView from '@crema/core/InfoView';
-import AppAnimate from '../../../@crema/core/AppAnimate';
+import InfoView from '../../components/InfoView';
+import AppAnimate from '../../components/AppAnimate';
 
 const CRM = () => {
     const dispatch = useDispatch();
