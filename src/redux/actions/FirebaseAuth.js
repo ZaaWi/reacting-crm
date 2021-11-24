@@ -4,7 +4,7 @@ import {
   githubAuthProvider,
   googleAuthProvider,
   twitterAuthProvider,
-} from '../../@crema/services/auth/firebase/firebase';
+} from '../../services/auth/firebase/firebase';
 import {
   FETCH_ERROR,
   FETCH_START,

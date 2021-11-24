@@ -11,8 +11,8 @@ import {
   SELECT_USER,
   TOGGLE_CHAT_DRAWER,
 } from '../../shared/constants/ActionTypes';
-import Api from '../../@crema/services/ApiConfig';
-import {appIntl} from '../../@crema/utility/Utils';
+import Api from '../../services/ApiConfig';
+import {appIntl} from '../../utility/Utils';
 
 export const getConnectionList = () => {
   const {messages} = appIntl();

@@ -7,10 +7,10 @@ import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import IntlMessages from '../../../utility/InitMessage';
 import Box from '@material-ui/core/Box';
-import {isBreakPointDown} from '../../../../@crema/utility/Utils';
+import {isBreakPointDown} from '../../../utility/utils';
 import PropTypes from 'prop-types';
 import {blue, indigo, red, teal} from '@material-ui/core/colors';
-import {Fonts} from '../../../../shared/constants/AppEnums';
+import {Fonts} from '../../../shared/constants/AppEnums';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 
 const useStyles = makeStyles((theme) => ({

@@ -4,8 +4,8 @@ import {
   FETCH_SUCCESS,
   GET_USER_LIST,
 } from '../../shared/constants/ActionTypes';
-import Api from '../../@crema/services/ApiConfig';
-import IntlMessages from '../../@crema/utility/IntlMessages';
+import Api from '../../services/ApiConfig';
+import IntlMessages from '../../utility/InitMessage';
 import React from 'react';
 
 export const onGetUserList = () => {

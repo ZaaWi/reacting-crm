@@ -13,8 +13,8 @@ import {
   UPDATE_CONTACT_LABEL,
   UPDATE_CONTACT_STARRED_STATUS,
 } from '../../shared/constants/ActionTypes';
-import Api from '../../@crema/services/ApiConfig';
-import {appIntl} from '../../@crema/utility/Utils';
+import Api from '../../services/ApiConfig';
+import {appIntl} from '../../utility/Utils';
 
 export const onGetContactList = (type, name, currentPage) => {
   const {messages} = appIntl();
